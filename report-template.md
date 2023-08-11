@@ -19,9 +19,9 @@ The analysis consisted og the following stages:
 * Machine Learning Model 1: Logistic Regression (Original Data)
   * Confusion Matrix:
 
-          Predicted 0    Predicted 1
-Actual 0    18663         102
-Actual 1    56            615
+              Predicted 0    Predicted 1
+    Actual 0    18663         102
+    Actual 1    56            615
 
 * True Positives (TP) for predicted "1" (high-risk loan): 615
 * True Negatives (TN) for predicted "0" (healthy loan): 18663
@@ -32,27 +32,22 @@ Actual 1    56            615
 * Accuracy Score: 0.95
 * Classification Report:
 
-              precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
-           0       1.00      0.99      1.00     18765
-           1       0.85      0.91      0.88       619
+              0       1.00      0.99      1.00     18765
+              1       0.85      0.91      0.88       619
 
-    accuracy                           0.99     19384
-   macro avg       0.92      0.95      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
+        accuracy                           0.99     19384
+       macro avg       0.92      0.95      0.94     19384
+    weighted avg       0.99      0.99      0.99     19384
 
 
 * Machine Learning Model 2: Logistic Regression (Oversampled Data)
   * Confusion Matrix:
 
-          Predicted 0    Predicted 1
-Actual 0    18649         116
-Actual 1        4         615
+            Predicted 0    Predicted 1
+    Actual 0    18649         116
+    Actual 1        4         615
 
 * True Positives (TP) for predicted "1" (high-risk loan): 615
 * True Negatives (TN) for predicted "0" (healthy loan): 18649
@@ -64,16 +59,15 @@ Actual 1        4         615
 
 * Classification Report
                                                             
-              precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
-           0       1.00      0.99      1.00     18765
-           1       0.84      0.99      0.91       619
+               0       1.00      0.99      1.00     18765
+               1       0.84      0.99      0.91       619
 
-    accuracy                           0.99     19384
-   macro avg       0.92      0.99      0.95     19384
-weighted avg       0.99      0.99      0.99     19384
+        accuracy                           0.99     19384
+       macro avg       0.92      0.99      0.95     19384
+    weighted avg       0.99      0.99      0.99     19384
 
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
